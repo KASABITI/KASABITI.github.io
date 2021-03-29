@@ -10186,6 +10186,7 @@ header.masthead .masthead-heading {
     /* margin-bottom: 4rem; */
   }
 }
+/* CONTACT */
 
 section#contact {
   background-color: #212529;
@@ -10240,6 +10241,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
+/* BEGINING OF TIMELINE */
+
 .main-timeline2{padding-top:50px;overflow:hidden;position:relative}
 .main-timeline2:before{content:"";width:7px;height:100%;background:#084772;margin:0 auto;position:absolute;top:80px;left:0;right:0}
 .main-timeline2 .timeline{width:50%;float:left;padding:20px 60px;border-top:7px solid #084772;border-right:7px solid #084772;border-radius:0 30px 0 0;position:relative;right:-3.5px}
@@ -10268,6 +10271,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media only screen and (max-width:480px){.main-timeline2 .title{font-size:18px}
 }
 
+.timeline-content-right-2{
+  background: #567088;
+}
+/* END OF TIMELINE*/
 
 /* Menu */
 ul li a{
@@ -10350,6 +10357,9 @@ svg:not(:root).svg-inline--fa {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+#tech{
+  margin-bottom: -8rem;
 }
 
 .footer {
