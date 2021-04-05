@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 50%;
+  width: 70%;
 }
 
 .row-cols-1 {
@@ -42,5 +42,6 @@
   transform: translate(-50%, -50%);
   text-align: justify;
   vertical-align: middle;
+  font-size: 0.9  5em;
 
 }
