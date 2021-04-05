@@ -10054,10 +10054,6 @@ img::-moz-selection {
 }
 
 
-/* body{
-  background: gainsboro;
-} */
-
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -10155,9 +10151,6 @@ header.masthead .masthead-subheading {
   line-height: 1.5rem;
   margin-bottom: 25px;
   opacity: 0.6;
-  /* height: 5rem; */
-  /* padding: 1rem;
-  background: #212529; */
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
@@ -10180,10 +10173,7 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    /* font-size: 1.5rem; */
     font-weight: 600;
-    /* line-height: 4.5rem; */
-    /* margin-bottom: 4rem; */
   }
 }
 /* CONTACT */
@@ -10269,6 +10259,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 .main-timeline2 .icon{left:auto;right:0}
 }
 @media only screen and (max-width:480px){.main-timeline2 .title{font-size:18px}
+}
+
+@media only screen and (min-width:320px) and (max-width:1440px){.apropos {
+    background: gainsboro;
+}
 }
 
 .timeline-content-right-2{
